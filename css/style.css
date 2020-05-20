@@ -1,0 +1,144 @@
+body{
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin:0px;
+
+}
+
+hr{
+  border: dotted #EAF6F6 12px;
+  border-bottom: none;
+  width:4%;
+  margin: 60px auto;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  color:#00a1ab;
+
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#00a1ab;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 2rem;
+}
+h4{
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 2rem;
+}
+.cloud-bottom{
+  position: absolute;
+  left:200px;
+  bottom:300px;
+}
+
+.cloud-top{
+  position: absolute;
+  right:300px;
+  top:160px;
+}
+
+.top-container{
+  padding-top: 200px;
+  position: relative;
+  background-color: #abf0e9;
+  line-height: 2;
+}
+.middle-container{
+  margin: 100px auto;
+}
+
+.bottom-container{
+  padding-top:50px;
+  margin-bottom: 0px;
+  background-color: #abf0e9;
+
+}
+
+a{
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.skill-row{
+  width: 60%;
+  margin: 150px auto;
+
+}
+
+.web{
+  width: 25%;
+  height: 200px;
+  float: left;
+  margin-right: 40px;
+}
+
+.guitar{
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+a:hover{
+  color: white;
+}
+
+p{
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.short-desc{
+  color:#40514E;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.cc{
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 50px auto;
+}
+
+.testbutton {
+  font-family: arial;
+  color: #F2F2F2 !important;
+  font-size: 21px;
+  text-shadow: 1px 1px 0px #3CCEDE;
+  box-shadow: 1px 1px 1px #70F9F0;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #1EA1B0;
+}
+.testbutton:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
